@@ -1,1 +1,1 @@
-web: gunicorn LinearRPrediction.wsgi
+web: gunicorn LinearRPrediction:app --log-file-
