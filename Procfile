@@ -1,1 +1,1 @@
-web: gunicorn LinearRPrediction:app --log-file-
+web: gunicorn LinearRPrediction :app --log-file-
