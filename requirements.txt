@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 auxlib==0.0.42
 certifi==2018.4.16
 chardet==3.0.4
@@ -33,3 +34,8 @@ urllib3==1.23
 virtualenv==16.0.0
 virtualenv-clone==0.3.0
 Werkzeug==0.14.1
+=======
+docopt==0.6.2
+bob-builder==0.0.13
+boto==2.48.0
+>>>>>>> 7cc3bac1a4fddcc5c5acdf373e62e31c5f302794
