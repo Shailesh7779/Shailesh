@@ -1,4 +1,3 @@
-import quandl
 import pandas as pd
 import numpy as np
 import datetime
@@ -8,8 +7,6 @@ from flask import Flask, jsonify
 from sklearn.linear_model import LinearRegression
 from sklearn import preprocessing, cross_validation, svm
 app = Flask(__name__)
-
-quandl.ApiConfig.api_key = "xBLitG1foBj4M2YBXPxy"
 
 
 @app.route("/")
