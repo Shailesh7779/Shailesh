@@ -1,2 +1,2 @@
-web: gunicorn  my_app.py:Shailesh 
+web: gunicorn  LinearRPrediction:Shailesh
 
