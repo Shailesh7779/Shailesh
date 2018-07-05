@@ -1,1 +1,1 @@
-web: gunicorn Shailesh.wsgi --log-file -
+web: app.wsgi --log-file -
