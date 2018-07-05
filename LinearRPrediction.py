@@ -7,9 +7,9 @@ from flask import Flask, jsonify
 
 from sklearn.linear_model import LinearRegression
 from sklearn import preprocessing, cross_validation, svm
+app = Flask(__name__)
 
 quandl.ApiConfig.api_key = "xBLitG1foBj4M2YBXPxy"
-app = Flask(__name__)
 
 
 @app.route("/")
