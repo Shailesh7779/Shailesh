@@ -1,2 +1,2 @@
-web: gunicorn  LinearRPrediction:Shailesh --log-file -
+web:gunicorn my_app:Shailesh
 
